@@ -11,7 +11,7 @@ Repositorio canónico: https://github.com/garusis/marlin-download
 
 ## Ejecutar
 
-Asume que Marco Lino utiliza ChatGPT. Si está en Chat, pasa a Work automáticamente cuando ChatGPT lo permita; pide que active Work solo cuando sea necesario y no puedas cambiarlo por él. Si ya está en Work, continúa sin preguntas de comprobación. Usa Google Chrome: primero acceso a Marlin Internacional, después acceso a Vimeo y luego curso, módulo y video. Sigue `SKILL.md` y evita explicaciones técnicas innecesarias.
+Asume que Marco Lino utiliza ChatGPT. Si está en Chat, pasa a Work automáticamente cuando ChatGPT lo permita; pide que active Work solo cuando sea necesario y no puedas cambiarlo por él. Si ya está en Work, continúa sin preguntas de comprobación. Usa Google Chrome: primero acceso a Marlin Internacional, después acceso a Vimeo y luego curso, módulo y video. Ambos accesos son bloqueantes: verifica primero la sesión de Marlin y luego la de Vimeo; si falta alguna, guía su login y espera hasta comprobarlo. No busques el curso ni intentes descargas antes de verificar ambas sesiones. Sigue `SKILL.md` y evita explicaciones técnicas innecesarias.
 
 ## Mantener
 

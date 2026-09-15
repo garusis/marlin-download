@@ -41,6 +41,18 @@ Cada vez que Marco Lino deba iniciar sesión, completar una verificación o desc
 
 ## 3. Iniciar sesión en orden
 
+### Accesos obligatorios y bloqueantes
+
+Antes de buscar el curso, identificar el video o intentar cualquier descarga, verifica las dos sesiones en este orden:
+
+1. **Marlin Internacional:** comprueba que la sesión esté iniciada. Si no lo está, abre su login, prepara las ventanas según la pantalla y guía al usuario para entrar. **Detén el flujo aquí hasta verificar el acceso.** No avances a Vimeo mientras Marlin siga pendiente.
+2. **Vimeo:** una vez verificado Marlin, comprueba que Vimeo tenga una sesión iniciada. Si no la tiene, abre su login, prepara las ventanas y guía al usuario para entrar. **Detén el flujo aquí hasta verificar el acceso.** No busques el curso ni intentes acceder a la descarga mientras Vimeo siga pendiente.
+3. **Solo con ambas sesiones verificadas** continúa al paso 4. Si el usuario ya indicó curso y video, conserva esos datos sin usarlos para saltarte los accesos.
+
+Verifica mediante señales de la interfaz autenticada, como el menú de cuenta o perfil, la opción de cerrar sesión o un área privada de la cuenta. Una portada pública, un reproductor que funciona, un enlace de video o un botón de descarga visible **no prueban que haya sesión iniciada**. Reutiliza la sesión existente sin pedir un nuevo login si puedes verificarla. Si no puedes confirmar el acceso, mantén el paso pendiente; no hagas una descarga de prueba para averiguarlo.
+
+Después de que el usuario avise que entró, comprueba la interfaz antes de continuar. Las sesiones verificadas en una prueba anterior no garantizan que sigan abiertas en una ejecución nueva. Si alguna caduca durante el flujo, suspende los pasos dependientes, guía el nuevo acceso y vuelve a verificar las dos sesiones en el orden indicado antes de retomar.
+
 ### Marlin Internacional: abrir el acceso
 
 URL conocidas, proporcionadas por el usuario:
@@ -67,7 +79,7 @@ No pidas contraseñas ni códigos de autenticación en el chat. No extraigas coo
 
 ## 4. Elegir curso, módulo y video
 
-Reutiliza el curso y video indicados por el usuario; pregunta solo los datos necesarios que falten.
+Entra a este paso únicamente después de verificar las sesiones de Marlin y Vimeo del paso 3. Reutiliza el curso y video indicados por el usuario; pregunta solo los datos necesarios que falten.
 
 1. Busca el curso por su **nombre visible** en Cursos y verifica su título al abrirlo. Si hay coincidencias ambiguas, pide elegir entre los títulos encontrados. Si el acceso lleva a la administración de WordPress, usa **«Ver»** del curso identificado para abrir su página; no edites el curso.
 2. Revisa **Contenido del Curso** y cuenta los módulos reales. Si hay **uno solo**, entra directamente sin preguntar. Si hay **varios** y el usuario no ha elegido uno, muestra sus nombres y pregunta cuál. No deduzcas el número de módulos a partir de los números de sus URL.
@@ -83,6 +95,8 @@ Reutiliza el curso y video indicados por el usuario; pregunta solo los datos nec
 - El enlace de administración se obtuvo del enlace del título dentro del reproductor. Descubre el enlace correspondiente en cada ejecución; esta prueba no fija el video 15 como destino para otras solicitudes.
 
 ## 5. Descubrir y realizar la descarga
+
+Este paso requiere ambas sesiones verificadas. Si Vimeo muestra un login, suspende la descarga y vuelve al paso 3; no pruebes enlaces, otras pestañas ni control de computadora para continuar sin autenticarte. Las alternativas de descarga solo aplican después de cumplir este requisito.
 
 ### Descarga desde la administración de Vimeo
 

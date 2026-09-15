@@ -16,6 +16,7 @@ const manifest = {
   requiredMode: 'ChatGPT Work',
   modeTransition: 'Asumir ChatGPT. Pasar de Chat a Work automáticamente si está disponible; pedir el cambio solo cuando sea necesario y no se pueda realizar por el usuario.',
   requiredBrowser: 'Google Chrome',
+  authenticationGate: 'Bloqueante: verificar sesión de Marlin primero y Vimeo después. Si falta una, guiar el login y esperar hasta comprobarlo. Solo entonces buscar curso, identificar video y descargar; un reproductor visible no demuestra autenticación.',
   userHandoff: 'Antes de solicitar una acción manual, adaptar las ventanas: en laptop mantener ChatGPT visible e indicar que vaya a Chrome; en pantalla grande mover y redimensionar ChatGPT y Chrome para dejarlos juntos y legibles. Usar controles de ventana disponibles o dar indicaciones manuales breves.',
   destination: 'Carpeta Descargas del usuario en su computadora',
   downloadFallback: 'Si el control del navegador falla con ERR_BLOCKED_BY_CLIENT, probar el control de computadora sobre Chrome y guardar Original en Descargas. Si tampoco funciona o no está disponible, dejar el diálogo listo para el clic manual. Verificar el archivo antes de afirmar que terminó.',

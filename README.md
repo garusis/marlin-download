@@ -29,6 +29,8 @@ El repositorio es público y sus archivos se pueden leer sin iniciar sesión en 
 
 ## Qué hace el skill
 
+**Los accesos son bloqueantes:** primero se verifica la sesión de Marlin Internacional y después la de Vimeo. Si falta una, el agente guía el login y espera hasta comprobarlo. Solo con ambas sesiones verificadas puede buscar el curso, identificar el video o descargarlo. Un reproductor visible no sustituye la sesión de Vimeo.
+
 1. Pasar de **Chat a Work** automáticamente si es necesario y ChatGPT lo permite; de lo contrario, indicar cómo activarlo.
 2. Conectar **Google Chrome** del usuario.
 3. Abrir Marlin Internacional y preparar las ventanas según la pantalla: ChatGPT visible con indicación de ir a Chrome en laptop, o ambas lado a lado en pantalla grande; esperar a que el usuario inicie sesión.
