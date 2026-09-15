@@ -29,15 +29,15 @@ Si Chrome no está conectado, guía al usuario a la configuración de uso de com
 
 ### Preparar la pantalla para la intervención del usuario
 
-Cada vez que Marco Lino deba iniciar sesión, completar una verificación o descargar manualmente, prepara la pantalla **antes de pedirle que actúe**. Que una pestaña esté abierta no significa que el usuario pueda verla: ChatGPT puede estar tapando Chrome.
+Cada vez que Marco Lino deba iniciar sesión, completar una verificación o descargar manualmente, prepara la pantalla **antes de pedirle que actúe**. Adapta la disposición al espacio disponible con el control de computadora y sus herramientas documentadas. Usa el contexto conocido y el estado de las ventanas; no deduzcas las pulgadas físicas únicamente de la resolución ni preguntes por el monitor si puedes elegir una disposición legible.
 
-- Usa el control de computadora disponible para seleccionar la ventana y pestaña correctas de **Google Chrome** y traerlas al frente. Sigue la documentación del plugin y observa el estado actual de las ventanas.
-- Acomoda **ChatGPT y Chrome lado a lado** en la misma pantalla, si el espacio lo permite: deja las instrucciones de ChatGPT legibles y suficiente espacio en Chrome para ver y utilizar el formulario o diálogo. Usa los controles de ventanas disponibles en Windows; descubre la disposición real sin asumir atajos, coordenadas, resolución ni posiciones de otro equipo.
-- Conserva las pestañas y los datos que el usuario haya escrito. Ajusta únicamente las ventanas necesarias para esta interacción, sin cerrar otras aplicaciones ni cambiar configuraciones permanentes de pantalla.
-- Comprueba visualmente que el formulario o botón objetivo esté visible y no quede detrás de ChatGPT, otro diálogo o un aviso. Si la pantalla no permite una disposición cómoda, prioriza Chrome al frente y proporciona una instrucción breve que pueda recordar, explicando cómo volver a ChatGPT al terminar.
-- Una vez preparada la pantalla, describe el control por su etiqueta visible: por ejemplo, «En Chrome, escribe tu usuario y contraseña y pulsa Acceder». Evita instrucciones como «a la derecha» si no has verificado esa disposición.
-- Si el control de computadora no está disponible o no permite acomodar las ventanas, indica el paso mínimo: «Marco Lino, trae Google Chrome al frente y selecciona la pestaña de Vimeo. Si puedes, coloca Chrome junto a ChatGPT para ver ambos». No afirmes haber acomodado la pantalla sin comprobarlo.
-- Mientras el usuario escribe credenciales, deja que complete el formulario sin seguir capturando la pantalla. Retoma la comprobación de la sesión cuando avise que terminó. Mantén la disposición útil para que pueda seguir los próximos pasos.
+- **Laptop o pantalla pequeña:** conserva la ventana y la conversación de **ChatGPT visibles** al entregar las instrucciones. Prepara la pestaña correcta de Chrome y luego vuelve a ChatGPT; no fuerces ambas ventanas lado a lado ni dejes Chrome tapando las instrucciones. Indica: «Marco Lino, ve a Google Chrome y abre la pestaña de [sitio]. Allí [acción concreta]. Cuando termines, vuelve a esta conversación y avísame». Conserva el formulario abierto para que pueda cambiar de aplicación sin buscarlo de nuevo.
+- **Pantalla grande, por ejemplo un monitor de 27 pulgadas:** coloca **ChatGPT junto a Google Chrome** en la misma pantalla. Puedes mover, redimensionar, maximizar, restaurar o minimizar temporalmente las ventanas de ChatGPT y Chrome según sea necesario para conseguir esa disposición. Si una está maximizada, restáurala y ajusta su tamaño. Al entregar las instrucciones, ambas deben quedar visibles y legibles, sin estar minimizadas ni taparse entre sí.
+- En una laptop conectada a un monitor grande, usa la disposición de pantalla grande si ese es el monitor donde se realizará la interacción. Descubre los controles reales de Windows sin asumir atajos, coordenadas ni posiciones de otro equipo.
+- Conserva las pestañas, la conversación y los datos que el usuario haya escrito. Ajusta únicamente las ventanas necesarias para esta interacción, sin cerrar otras aplicaciones ni cambiar configuraciones permanentes de pantalla.
+- Comprueba que la pestaña correcta contiene el formulario o botón objetivo. En pantalla grande, comprueba también que este y las instrucciones sean visibles simultáneamente. En laptop, comprueba que ChatGPT quede visible al finalizar la preparación y explica cómo pasar a Chrome.
+- Describe los controles por su etiqueta visible. Evita «a la derecha» si no verificaste esa disposición. Si el control de computadora no está disponible o no permite acomodar las ventanas, da una indicación manual breve adecuada al espacio disponible y no afirmes haberlas acomodado.
+- Mientras el usuario escribe credenciales, deja que complete el formulario sin seguir capturando la pantalla. Retoma la comprobación de la sesión cuando avise que terminó.
 
 ## 3. Iniciar sesión en orden
 
@@ -59,7 +59,7 @@ No vuelvas a pedir estas URL. Conserva los parámetros necesarios de los videos 
 
 ### Vimeo: después del acceso a Marlin
 
-Solo una vez confirmado el acceso a Marlin Internacional, abre **https://vimeo.com/es** en otra pestaña de Chrome y sigue el enlace de inicio de sesión observado allí. Antes de pedir que inicie sesión en Vimeo, prepara la pantalla para que vea Chrome y las instrucciones de ChatGPT. Guía al usuario y verifica el acceso antes de continuar; si ya tiene sesión, reutilízala. No abras aún Vimeo mientras el acceso a Marlin esté pendiente.
+Solo una vez confirmado el acceso a Marlin Internacional, abre **https://vimeo.com/es** en otra pestaña de Chrome y sigue el enlace de inicio de sesión observado allí. Antes de pedir que inicie sesión en Vimeo, prepara la pantalla según el tamaño disponible: conserva ChatGPT visible en laptop o acomoda ambas ventanas juntas en pantalla grande. Guía al usuario y verifica el acceso antes de continuar; si ya tiene sesión, reutilízala. No abras aún Vimeo mientras el acceso a Marlin esté pendiente.
 
 Se verificaron el formulario de Marlin, la sesión autenticada, la navegación al módulo de La ley del Éxito y el acceso autenticado al video 15 en Vimeo. Reutiliza las sesiones ya abiertas.
 
@@ -114,7 +114,7 @@ Prueba verificada el 15 de septiembre de 2026: el clic con control de computador
 
 1. Si el intento automático llevó a una página de error, vuelve a la página del video previamente identificada en Vimeo. Reutiliza su pestaña si sigue abierta; no dejes al usuario en el error ni le entregues una URL temporal de descarga.
 2. Abre **Acciones de archivo → Descargar** y comprueba que el cuadro con las calidades está visible y contiene la fila **Original**. Si ya está abierto, consérvalo sin recargar. No vuelvas a pulsar el enlace de descarga automáticamente durante esta entrega.
-3. Prepara la pantalla con Chrome y ChatGPT visibles según **Preparar la pantalla para la intervención del usuario**. Mantén esa pestaña abierta al terminar el turno mediante el mecanismo documentado de conservación para intervención del usuario. No cambies permisos, extensiones ni protecciones del navegador.
+3. Prepara la pantalla según **Preparar la pantalla para la intervención del usuario**. Mantén esa pestaña abierta al terminar el turno mediante el mecanismo documentado de conservación para intervención del usuario. No cambies permisos, extensiones ni protecciones del navegador.
 4. Indica el título del video y da una instrucción breve, adaptada a lo observado:
 
 > Marco Lino, dejé abierto en Google Chrome el cuadro de descarga de «[título del video]». No pude completar la descarga automática. Haz clic en el icono de descarga a la derecha de **Original**. Si Chrome te pregunta dónde guardarlo, elige **Descargas**. Espera a que termine y avísame para comprobar el archivo.

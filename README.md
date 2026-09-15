@@ -31,7 +31,7 @@ El repositorio es público y sus archivos se pueden leer sin iniciar sesión en 
 
 1. Pasar de **Chat a Work** automáticamente si es necesario y ChatGPT lo permite; de lo contrario, indicar cómo activarlo.
 2. Conectar **Google Chrome** del usuario.
-3. Abrir Marlin Internacional y acomodar Chrome y ChatGPT para ver el formulario y las instrucciones al mismo tiempo; esperar a que el usuario inicie sesión.
+3. Abrir Marlin Internacional y preparar las ventanas según la pantalla: ChatGPT visible con indicación de ir a Chrome en laptop, o ambas lado a lado en pantalla grande; esperar a que el usuario inicie sesión.
 4. Solo después, abrir el acceso de Vimeo y completar la segunda sesión.
 5. Localizar el curso, módulo y video indicado; descubrir la descarga disponible.
 6. Descargar mediante el control del navegador; si falla con ese bloqueo, probar el control de computadora en Chrome. Si tampoco funciona, dejar el cuadro de Vimeo abierto e indicar que pulse **Original**. Verificar el archivo cuando termine.
@@ -64,7 +64,7 @@ En ChatGPT selecciona `@marlin-download` desde el selector de skills o pide:
 
 > Usa marlin-download. Quiero descargar el video [video], del módulo [módulo], del curso [curso].
 
-El usuario completa los inicios de sesión en Chrome. Antes de pedirle actuar, el agente usa el control de computadora disponible para mostrar la pestaña correcta y acomodar Chrome junto a ChatGPT, con el formulario y las instrucciones visibles. Si falta espacio, prioriza Chrome al frente; si no puede acomodar las ventanas, da una indicación manual breve. El agente retoma la comprobación cuando el usuario avisa que terminó. Esta disposición de ventanas aún está pendiente de probar en Windows.
+El usuario completa los inicios de sesión en Chrome. Antes de pedirle actuar, el agente usa el control de computadora disponible para mostrar la pestaña correcta y adaptar las ventanas a la pantalla. En laptop conserva ChatGPT visible y le indica a Marco Lino que vaya a Google Chrome y vuelva al terminar. En pantalla grande, como un monitor de 27 pulgadas, mueve y redimensiona ChatGPT y Chrome para dejarlos lado a lado; puede restaurar, maximizar o minimizar temporalmente esas ventanas durante la preparación, pero ambas quedan visibles al entregar las instrucciones. Si no puede acomodarlas, da una indicación manual breve. El agente retoma la comprobación cuando el usuario avisa que terminó. Esta disposición de ventanas aún está pendiente de probar en Windows.
 
 ## Archivos para agentes
 
