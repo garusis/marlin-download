@@ -81,11 +81,25 @@ Recorrido verificado con la sesión del propietario:
 3. En el cuadro **«Descargar»**, revisa las filas de calidad, resolución y tamaño. Prefiere **Original**, si está disponible, salvo preferencia del usuario. Si no, usa la mejor calidad disponible. Asocia el enlace «Descargar» a la fila correcta, no a un índice fijo.
 4. Si aparecen avisos informativos de novedades, ciérralos con su botón visible y vuelve a revisar los controles antes de continuar.
 5. No actives el permiso **«Descargas»** de **Compartir → Permisos de los espectadores**: ese ajuste cambia lo que pueden hacer otros usuarios y no es necesario para descargar desde las acciones del propietario. Conserva la privacidad del video.
-6. Si Chrome bloquea la navegación o descarga, informa del mensaje y pide al usuario revisar el bloqueo en Chrome. No desactives protecciones ni uses otro cliente para eludirlo. No repitas la descarga sin un cambio que permita avanzar.
+6. Intenta descargar automáticamente con las herramientas disponibles. Si aparece **ERR_BLOCKED_BY_CLIENT** o no puedes completar la descarga automática, prepara la descarga manual siguiendo el apartado siguiente. No repitas intentos equivalentes ni conviertas el diagnóstico del navegador en un requisito para continuar.
 
-La prueba del 15 de septiembre de 2026 llegó a **Original (384,27 MB, 853 × 480)** del video 15. Al pulsar el enlace, Chrome mostró **ERR_BLOCKED_BY_CLIENT** en el servidor de archivos de Vimeo. No se creó un archivo en Descargas; la descarga completa sigue pendiente de verificar.
+La prueba del 15 de septiembre de 2026 llegó a **Original (384,27 MB, 853 × 480)** del video 15. Al pulsar el enlace, Chrome mostró **ERR_BLOCKED_BY_CLIENT** en el servidor de archivos de Vimeo. El clic y la apertura del enlace en otra pestaña produjeron el mismo bloqueo. No se creó un archivo en Descargas durante las pruebas del agente. El usuario indicó que manualmente sí puede descargar; la causa del bloqueo automatizado no está confirmada.
 
-### Guardar y verificar Descubre las opciones reales de la página con las capacidades documentadas de Chrome.
+### Alternativa manual: dejar el diálogo listo
+
+1. Si el intento automático llevó a una página de error, vuelve a la página del video previamente identificada en Vimeo. Reutiliza su pestaña si sigue abierta; no dejes al usuario en el error ni le entregues una URL temporal de descarga.
+2. Abre **Acciones de archivo → Descargar** y comprueba que el cuadro con las calidades está visible y contiene la fila **Original**. Si ya está abierto, consérvalo sin recargar. No vuelvas a pulsar el enlace de descarga automáticamente durante esta entrega.
+3. Mantén esa pestaña abierta al terminar el turno mediante el mecanismo documentado de conservación para intervención del usuario. No cambies permisos, extensiones ni protecciones del navegador.
+4. Indica el título del video y da una instrucción breve, adaptada a lo observado:
+
+> Marco Lino, dejé abierto en Google Chrome el cuadro de descarga de «[título del video]». No pude completar la descarga automática. Haz clic en el icono de descarga a la derecha de **Original**. Si Chrome te pregunta dónde guardarlo, elige **Descargas**. Espera a que termine y avísame para comprobar el archivo.
+
+5. Si no aparece **Original**, explica cuáles son las opciones reales y señala la mejor disponible. Si no puedes abrir o conservar el diálogo, dilo con claridad y proporciona la ruta **tres puntos → Descargar → Original** desde la página del video; no afirmes haberlo dejado listo.
+6. Presenta el resultado como **listo para descarga manual**, no como un archivo ya descargado. No exijas al usuario investigar el bloqueo para realizar este paso. Cuando indique que terminó, verifica el archivo si tienes acceso; de lo contrario, pídele comprobarlo en Descargas e informa de esa limitación.
+
+### Guardar y verificar
+
+Descubre las opciones reales de la página con las capacidades documentadas de Chrome.
 
 - Prioriza el botón o enlace de descarga ofrecido por la página o por Vimeo para el video elegido. Si es necesario, sigue el enlace observado al video de Vimeo y revisa las opciones de administración o descarga que permita la cuenta.
 - Si no aparece una descarga directa, investiga las opciones autorizadas disponibles para el propietario con las herramientas existentes. No confundas el permiso para reproducir con un enlace de descarga disponible. No eludas DRM ni controles de acceso; si no encuentras un método permitido, explica el impedimento concreto y el siguiente paso que puede realizar el propietario.

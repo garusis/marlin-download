@@ -11,7 +11,7 @@ Repositorio: https://github.com/garusis/marlin-download
 3. Abrir Marlin Internacional y esperar a que el usuario inicie sesión.
 4. Solo después, abrir el acceso de Vimeo y completar la segunda sesión.
 5. Localizar el curso, módulo y video indicado; descubrir la descarga disponible.
-6. Guardar y verificar el archivo en Descargas.
+6. Descargar automáticamente si es posible; si falla, dejar abierto el cuadro de Vimeo e indicar que pulse **Original**. Verificar el archivo cuando termine.
 
 ### Páginas y acceso verificado
 
@@ -21,7 +21,7 @@ Repositorio: https://github.com/garusis/marlin-download
 
 El 15 de septiembre de 2026 se verificó en Chrome la navegación desde la portada al formulario con **«Nombre de usuario o correo electrónico»**, **«Contraseña»** y **«Acceder»**. También se verificó la navegación autenticada: **La ley del Éxito → Modulo → Video 15-Curso la Ley del Éxito** en Vimeo. El curso tiene un solo módulo, así que el skill entra directamente; cuando haya varios, preguntará cuál si no se indicó.
 
-La descarga del video se encuentra en **Acciones de archivo → Descargar → Original**. La prueba llegó al archivo original de 384,27 MB, pero Chrome bloqueó el servidor de archivos con **ERR_BLOCKED_BY_CLIENT**. No se guardó un archivo; falta verificar la descarga completa después de resolver ese bloqueo en Chrome.
+La descarga del video se encuentra en **Acciones de archivo → Descargar → Original**. La prueba llegó al archivo original de 384,27 MB, pero Chrome bloqueó el servidor de archivos con **ERR_BLOCKED_BY_CLIENT**. No se guardó un archivo durante las pruebas del agente; el usuario indicó que la descarga manual sí funciona. Si ocurre este bloqueo, el skill vuelve al video y deja abierto el cuadro de descarga para que Marco Lino pulse el icono a la derecha de **Original** y guarde en **Descargas**. No le exige diagnosticar el bloqueo. Distingue entre «listo para descarga manual» y «archivo descargado y verificado».
 
 ## Requisitos
 

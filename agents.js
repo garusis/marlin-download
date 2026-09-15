@@ -17,6 +17,7 @@ const manifest = {
   modeTransition: 'Asumir ChatGPT. Pasar de Chat a Work automáticamente si está disponible; pedir el cambio solo cuando sea necesario y no se pueda realizar por el usuario.',
   requiredBrowser: 'Google Chrome',
   destination: 'Carpeta Descargas del usuario en su computadora',
+  downloadFallback: 'Si falla la descarga automática, dejar abierto el cuadro Descargar de Vimeo y pedir que pulse el icono de Original y guarde en Descargas. No afirmar que el archivo se descargó hasta verificarlo.',
   installation: {
     instructions: 'README.md#instalación-local',
     method: 'Clonar en una carpeta persistente y enlazarla en ~/.agents/skills/marlin-download, o usar el skill-installer disponible con la raíz del repositorio.',
