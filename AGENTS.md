@@ -11,7 +11,7 @@ Repositorio canónico: https://github.com/garusis/marlin-download
 
 ## Ejecutar
 
-El flujo exige Work local y Google Chrome. Primero acceso a Marcolino Internacional; después acceso a Vimeo; luego curso, módulo y video. Si falta Work, sigue el mensaje explícito de `SKILL.md` y espera. Estas restricciones se aplican a la descarga, no a editar o instalar este repositorio.
+Asume que Marco Lino utiliza ChatGPT. Si está en Chat, pasa a Work automáticamente cuando ChatGPT lo permita; pide que active Work solo cuando sea necesario y no puedas cambiarlo por él. Si ya está en Work, continúa sin preguntas de comprobación. Usa Google Chrome: primero acceso a Marcolino Internacional, después acceso a Vimeo y luego curso, módulo y video. Sigue `SKILL.md` y evita explicaciones técnicas innecesarias.
 
 ## Mantener
 

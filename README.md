@@ -6,7 +6,7 @@ Repositorio: https://github.com/garusis/marlin-download
 
 ## Primera versión
 
-1. Comprobar **ChatGPT Work local** antes de navegar.
+1. Pasar de **Chat a Work** automáticamente si es necesario y ChatGPT lo permite; de lo contrario, indicar cómo activarlo.
 2. Conectar **Google Chrome** del usuario.
 3. Abrir Marcolino Internacional y esperar a que el usuario inicie sesión.
 4. Solo después, abrir el acceso de Vimeo y completar la segunda sesión.
@@ -17,11 +17,11 @@ Las URL de ambas páginas están pendientes de recibir. El skill las pide al com
 
 ## Requisitos
 
-- Aplicación de escritorio de ChatGPT/Codex de OpenAI, seleccionando **ChatGPT → Work**, con ejecución local.
+- ChatGPT en modo **Work**, con acceso al Chrome y a Descargas del usuario.
 - Google Chrome conectado mediante la extensión y las herramientas disponibles en la aplicación.
 - Acceso a las dos cuentas y a la carpeta Descargas del equipo.
 
-**Work local es un requisito de este skill.** No basta con tener Codex abierto. Si el agente no puede verificar el modo o cambiarlo mediante una herramienta documentada, debe pedir explícitamente el cambio y esperar. Instalar el skill no habilita Chrome ni permisos de archivos automáticamente.
+El skill asume que Marco Lino utiliza ChatGPT. Si ya está en Work, continúa sin comprobaciones ni preguntas sobre el entorno. Si está en Chat, intenta pasar a Work automáticamente; solo pide que lo active cuando el cambio sea necesario y no pueda hacerlo por él. Si falta acceso a Chrome o a Descargas, guía el paso concreto para habilitarlo.
 
 ## Instalación local
 
@@ -52,7 +52,7 @@ Verifica el skill en **Skills** de la aplicación. Si no aparece, reinicia la ap
 
 ## Uso
 
-En ChatGPT selecciona `@marlin-download` desde el selector de skills; en la interfaz Codex se usa `$marlin-download`, pero el flujo pedirá pasar a Work local antes de navegar.
+En ChatGPT selecciona `@marlin-download` desde el selector de skills o pide:
 
 > Usa marlin-download. Mi página es [URL] y Vimeo es [URL]. Quiero descargar el video [video], del módulo [módulo], del curso [curso].
 
@@ -81,4 +81,4 @@ El enlace refleja los cambios del clon. Para publicar cambios de desarrollo, rev
 ## Referencias oficiales
 
 - [Crear e instalar skills locales](https://learn.chatgpt.com/docs/build-skills).
-- [Diferencias entre Chat, Work y Codex; ejecución local](https://learn.chatgpt.com/docs/use-chatgpt#choose-how-you-want-to-work).
+- [Usar ChatGPT y Work](https://learn.chatgpt.com/docs/use-chatgpt#choose-how-you-want-to-work).

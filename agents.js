@@ -13,7 +13,8 @@ const manifest = {
   entrypoint: 'SKILL.md',
   readme: 'README.md',
   agentInstructions: 'AGENTS.md',
-  requiredMode: 'ChatGPT Work local',
+  requiredMode: 'ChatGPT Work',
+  modeTransition: 'Asumir ChatGPT. Pasar de Chat a Work automáticamente si está disponible; pedir el cambio solo cuando sea necesario y no se pueda realizar por el usuario.',
   requiredBrowser: 'Google Chrome',
   destination: 'Carpeta Descargas del usuario en su computadora',
   installation: {

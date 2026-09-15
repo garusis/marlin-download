@@ -1,23 +1,25 @@
 ---
 name: marlin-download
-description: Ayuda a Marco Lino Álvarez a descargar videos de cursos de su página Marcolino Internacional alojados en Vimeo, usando Google Chrome y guardándolos en Descargas. Verifica primero que la conversación esté en Work local.
+description: Ayuda a Marco Lino Álvarez a descargar videos de cursos de su página Marcolino Internacional alojados en Vimeo, usando Google Chrome y guardándolos en Descargas. Si la conversación está en Chat, pasa a Work para realizar la descarga.
 ---
 
 # Descargar videos de Marcolino Internacional
 
 Ayuda a Marco Lino Álvarez a localizar y descargar el video que indique de su página personal. Los videos están alojados en Vimeo. Habla en español claro y guía los pasos que requieran intervención del usuario.
 
-## 1. Comprobar Work local antes de navegar
+## 1. Pasar de Chat a Work cuando haga falta
 
-Este flujo está destinado exclusivamente a la aplicación de escritorio de ChatGPT/Codex de OpenAI y exige **ChatGPT Work con ejecución local**, por decisión del propietario. No ejecutes el flujo en Chat, otro agente, Codex CLI, ni una sesión remota que no tenga acceso al Chrome y a Descargas del usuario. Codex y Work son opciones distintas: tener herramientas de Codex no demuestra que Work esté activo.
+Marco Lino siempre utiliza ChatGPT. Da ese contexto por hecho y evita preguntas sobre la aplicación, el entorno o conocimientos técnicos.
 
-Comprueba el modo y el entorno mediante el contexto explícito o una herramienta disponible. No deduzcas Work por el modelo, el nombre del skill o la mera presencia de herramientas. Si no puedes verificarlo, solicita confirmación del modo antes de navegar.
+Si la conversación ya está en **Work**, continúa directamente. Si está en **Chat**, usa el mecanismo de ChatGPT para pasar a **Work** automáticamente cuando esté disponible, conservando la conversación y los datos proporcionados. La solicitud de usar este skill autoriza ese cambio; no pidas una confirmación adicional.
 
-Si no está en Work, cambia o mueve la conversación solo si existe una herramienta documentada que permita esa operación y conserva el contexto. La solicitud de usar este skill autoriza ese cambio. No inventes una llamada ni crees una tarea cloud como sustituto de Work local. Si no puedes cambiarlo automáticamente, detén el flujo y muestra:
+Si es necesario cambiar a Work y no puedes hacerlo automáticamente, pide únicamente esta acción y espera:
 
-> Marco Lino Álvarez, este skill necesita ejecutarse en **Work con acceso local a tu computadora**. En la aplicación de escritorio, selecciona **ChatGPT**, activa **Work** y elige trabajar localmente si aparece esa opción. Necesito acceso a tu Google Chrome y a tu carpeta Descargas. No puedo cambiar el modo automáticamente desde esta conversación. Continúa allí con «Usa marlin-download para descargar mi video» y conserva las URL y la selección de curso, módulo y video. Avísame cuando estés en Work local para continuar.
+> Marco Lino, activa **Work** en el selector de esta conversación para que pueda descargar el video con tu Google Chrome y guardarlo en Descargas. No puedo activar ese cambio por ti desde aquí. Cuando lo hayas activado, continuamos desde este mismo punto.
 
-Work es necesario para este flujo, pero no garantiza que Chrome o el sistema de archivos estén habilitados. Comprueba también esas capacidades; si faltan, explica cuál debe habilitar el usuario.
+No conviertas el modo en una comprobación previa que el usuario deba confirmar. Si el contexto no lo indica, continúa con las herramientas disponibles y solicita el cambio solo si Chat impide avanzar. No afirmes haber cambiado el modo sin que el mecanismo disponible lo confirme.
+
+Si durante el trabajo falta acceso a Chrome o a Descargas, guía únicamente el paso necesario para habilitarlo en su computadora.
 
 ## 2. Conectar Google Chrome
 
