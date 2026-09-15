@@ -8,7 +8,7 @@ const { join } = require('node:path');
 const manifest = {
   name: 'marlin-download',
   repositoryUrl: 'https://github.com/garusis/marlin-download',
-  visibility: 'private',
+  visibility: 'public',
   skillDirectory: '.',
   entrypoint: 'SKILL.md',
   readme: 'README.md',
@@ -20,7 +20,8 @@ const manifest = {
   downloadFallback: 'Si el control del navegador falla con ERR_BLOCKED_BY_CLIENT, probar el control de computadora sobre Chrome y guardar Original en Descargas. Si tampoco funciona o no está disponible, dejar el diálogo listo para el clic manual. Verificar el archivo antes de afirmar que terminó.',
   installation: {
     instructions: 'README.md#instalación-local',
-    method: 'Clonar en una carpeta persistente y enlazarla en ~/.agents/skills/marlin-download, o usar el skill-installer disponible con la raíz del repositorio.',
+    method: 'Usar el instalador de skills disponible con repositorio garusis/marlin-download, referencia main, ruta . y nombre marlin-download; o guardar SKILL.md en la carpeta personal de skills que carga ChatGPT. No requiere Git ni Node.js.',
+    skillUrl: 'https://raw.githubusercontent.com/garusis/marlin-download/main/SKILL.md',
     existingInstallation: 'Inspeccionar antes de instalar; no sobrescribir.',
     verification: 'Comprobar que marlin-download aparece en Skills.',
   },

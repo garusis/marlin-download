@@ -4,7 +4,30 @@ Skill para ayudar a **Marco Lino Álvarez** a descargar videos de su página per
 
 Repositorio: https://github.com/garusis/marlin-download
 
-## Primera versión
+## Instalación local
+
+### Para Marco Lino
+
+Comparte el enlace de este repositorio con ChatGPT en la aplicación de escritorio. Si el agente no entiende que deseas instalarlo, escribe: **«Instala este skill para mí»**. ChatGPT debe realizar la instalación y confirmar que está disponible; no necesitas ejecutar comandos ni tener cuenta de GitHub.
+
+### Para ChatGPT: instalar este skill para el usuario
+
+Cuando el usuario comparta este repositorio para instalar el skill, realiza los pasos siguientes. El resultado esperado es **marlin-download instalado de forma persistente para ese usuario**, no solamente un resumen de este README ni una lectura temporal de las instrucciones.
+
+1. **Lee los archivos completos:** [SKILL.md](https://raw.githubusercontent.com/garusis/marlin-download/main/SKILL.md), [AGENTS.md](https://raw.githubusercontent.com/garusis/marlin-download/main/AGENTS.md) y este README. `agents.js` es un manifiesto opcional; no es necesario ejecutarlo ni instalar Node.js.
+2. **Usa las capacidades de instalación disponibles en ChatGPT.** Si existe `skill-installer`, lee sus instrucciones y úsalo con repositorio `garusis/marlin-download`, referencia `main`, ruta del skill `.` y nombre de destino `marlin-download`. Si existe un mecanismo nativo para guardar skills personales, úsalo conservando el contenido completo de `SKILL.md`.
+3. **Si necesitas acceso local y la conversación está en Chat**, pasa a Work automáticamente cuando sea posible. Si no puedes hacerlo, pide únicamente: «Marco Lino, activa Work en esta conversación para que pueda instalar el skill en tu computadora». Continúa desde el punto pendiente.
+4. **Alternativa con archivos locales:** resuelve la carpeta de skills personales que realmente carga esa instalación de ChatGPT. Sigue la configuración o la documentación disponible en esa sesión. En entornos que usan la ubicación documentada `$HOME/.agents/skills`, el destino en Windows se resuelve desde el perfil del usuario como `.agents\skills\marlin-download`; no copies rutas de otro equipo ni supongas que una carpeta de un servidor remoto pertenece a la computadora del usuario.
+5. Comprueba si ya existe `marlin-download` en esa ubicación o en el catálogo. Si es la misma versión y está disponible, informa que ya está instalado. Si hay una versión diferente, conserva los cambios locales y explica la diferencia antes de reemplazarla.
+6. Para una instalación nueva mediante archivos, crea la carpeta de destino y descarga **sin modificar** [SKILL.md](https://raw.githubusercontent.com/garusis/marlin-download/main/SKILL.md) dentro de ella. Esta versión es autocontenida: ese archivo basta para ejecutar el skill. No necesita Git, enlaces simbólicos, permisos de administrador ni paquetes adicionales. Los otros archivos del repositorio documentan su instalación y mantenimiento.
+7. **Verifica antes de anunciar éxito:** comprueba que el archivo guardado es Markdown, comienza con el frontmatter `name: marlin-download` y contiene todas las instrucciones; no guardes una página HTML de GitHub como skill. Comprueba después que `marlin-download` está disponible en el catálogo o selector **Skills** de ChatGPT. Si requiere volver a abrir la conversación o reiniciar la aplicación, indícalo y distingue «archivos instalados, activación pendiente» de «skill disponible».
+8. Una vez disponible, confirma: «Marco Lino, marlin-download está instalado. Puedes pedirme: descarga el video 15 de La ley del Éxito». No inicies descargas ni solicites credenciales como parte de la instalación.
+
+**Si la sesión no permite instalar skills persistentes:** explica la limitación concreta y guía al usuario al mecanismo de Skills disponible en su aplicación. No afirmes que pegar el enlace instala el skill automáticamente, ni que leerlo durante una conversación equivale a instalarlo. El acceso a Chrome y al control de computadora depende de las herramientas habilitadas en el equipo; instalar instrucciones no habilita esas herramientas.
+
+El repositorio es público y sus archivos se pueden leer sin iniciar sesión en GitHub. La instalación descrita es local; no publica un plugin en el directorio de OpenAI. La instalación y el control de computadora en Windows todavía necesitan validarse en el equipo de Marco Lino.
+
+## Qué hace el skill
 
 1. Pasar de **Chat a Work** automáticamente si es necesario y ChatGPT lo permite; de lo contrario, indicar cómo activarlo.
 2. Conectar **Google Chrome** del usuario.
@@ -35,33 +58,6 @@ El skill usa este orden: **control del navegador → control de computadora → 
 
 El skill asume que Marco Lino utiliza ChatGPT. Si ya está en Work, continúa sin comprobaciones ni preguntas sobre el entorno. Si está en Chat, intenta pasar a Work automáticamente; solo pide que lo active cuando el cambio sea necesario y no pueda hacerlo por él. Si falta acceso a Chrome o a Descargas, guía el paso concreto para habilitarlo.
 
-## Instalación local
-
-Comparte este mensaje con el agente de la aplicación de escritorio:
-
-> Instala el skill de https://github.com/garusis/marlin-download para uso local. Lee primero README.md, AGENTS.md y SKILL.md. Si dispones de skill-installer, úsalo con la raíz del repositorio como ruta del skill; de lo contrario, sigue la instalación manual del README. No sobrescribas una instalación existente. Verifica que marlin-download aparezca disponible.
-
-El repositorio es privado inicialmente: quien lo instale necesita acceso a GitHub. No pegues tokens en el chat.
-
-### Instalación manual para el agente
-
-Clona el repositorio en una carpeta persistente que no exista todavía:
-
-```sh
-git clone https://github.com/garusis/marlin-download.git /ruta/persistente/marlin-download
-```
-
-Expande `/ruta/persistente` a una ruta real elegida en ese equipo. Después crea un enlace a esa carpeta en la ubicación de skills personales documentada:
-
-```sh
-mkdir -p "$HOME/.agents/skills"
-ln -s /ruta/persistente/marlin-download "$HOME/.agents/skills/marlin-download"
-```
-
-Antes de crear el enlace, comprueba que el destino no exista, incluso si es un enlace roto. Si existe, inspecciona la instalación y evita duplicarla o reemplazarla sin instrucciones. En entornos con una ubicación de skills diferente configurada, usa la ubicación que documente ese entorno. Conserva el clon mientras el enlace esté instalado.
-
-Verifica el skill en **Skills** de la aplicación. Si no aparece, reinicia la aplicación y revisa la ubicación y configuración. Esta es una instalación local; el repositorio no publica un plugin en el directorio de OpenAI.
-
 ## Uso
 
 En ChatGPT selecciona `@marlin-download` desde el selector de skills o pide:
@@ -80,15 +76,11 @@ El usuario completa los inicios de sesión en Chrome. El agente espera a verific
 node agents.js
 ```
 
-## Actualizar y sincronizar
+## Actualizar
 
-Para actualizar el clon instalado sin crear fusiones automáticamente:
+Pide a ChatGPT: **«Actualiza marlin-download desde su repositorio»**. El agente debe comparar el `SKILL.md` instalado con la versión de `main`, conservar modificaciones locales y verificar que la versión actualizada quede disponible. Descargar una nueva versión no debe borrar otros skills.
 
-```sh
-git pull --ff-only
-```
-
-El enlace refleja los cambios del clon. Para publicar cambios de desarrollo, revísalos, crea un commit y ejecuta `git push`. GitHub y el clon quedan vinculados mediante `origin`; no hay sincronización automática en segundo plano.
+Para mantener este repositorio de desarrollo, revisa los cambios, crea un commit y publícalo con Git. Las instalaciones hechas copiando `SKILL.md` no se actualizan automáticamente.
 
 ## Referencias oficiales
 

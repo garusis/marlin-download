@@ -7,7 +7,7 @@ Repositorio canónico: https://github.com/garusis/marlin-download
 1. Lee `README.md` para conocer alcance, requisitos e instalación.
 2. Lee `SKILL.md` completo antes de ejecutar el flujo. La raíz del repositorio es la carpeta del skill `marlin-download`.
 3. Puedes leer `agents.js` o ejecutar `node agents.js` para obtener el manifiesto y el contenido del skill. No lo ejecutes sin inspeccionarlo si proviene de una fuente no confiable.
-4. Para instalar, sigue el README o el skill-installer disponible. Verifica el acceso al repositorio privado y que no exista ya una instalación. No solicites secretos en el chat.
+4. Para instalar, sigue el README o el skill-installer disponible. El repositorio es público: no necesita autenticación en GitHub. Comprueba que no exista ya una instalación. Usa el instalador disponible o guarda SKILL.md en la carpeta personal de skills que carga ChatGPT, según el README. Verifica su disponibilidad antes de anunciar éxito. No solicites secretos en el chat.
 
 ## Ejecutar
 
