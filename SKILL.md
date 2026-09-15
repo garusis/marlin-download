@@ -81,9 +81,22 @@ Recorrido verificado con la sesión del propietario:
 3. En el cuadro **«Descargar»**, revisa las filas de calidad, resolución y tamaño. Prefiere **Original**, si está disponible, salvo preferencia del usuario. Si no, usa la mejor calidad disponible. Asocia el enlace «Descargar» a la fila correcta, no a un índice fijo.
 4. Si aparecen avisos informativos de novedades, ciérralos con su botón visible y vuelve a revisar los controles antes de continuar.
 5. No actives el permiso **«Descargas»** de **Compartir → Permisos de los espectadores**: ese ajuste cambia lo que pueden hacer otros usuarios y no es necesario para descargar desde las acciones del propietario. Conserva la privacidad del video.
-6. Intenta descargar automáticamente con las herramientas disponibles. Si aparece **ERR_BLOCKED_BY_CLIENT** o no puedes completar la descarga automática, prepara la descarga manual siguiendo el apartado siguiente. No repitas intentos equivalentes ni conviertas el diagnóstico del navegador en un requisito para continuar.
+6. Intenta descargar automáticamente con las herramientas disponibles. Si aparece **ERR_BLOCKED_BY_CLIENT** o no puedes completar la descarga automática, prueba el control de computadora siguiendo el apartado siguiente; si tampoco funciona o no está disponible, prepara la descarga manual. No repitas intentos equivalentes ni conviertas el diagnóstico del navegador en un requisito para continuar.
 
-La prueba del 15 de septiembre de 2026 llegó a **Original (384,27 MB, 853 × 480)** del video 15. Al pulsar el enlace, Chrome mostró **ERR_BLOCKED_BY_CLIENT** en el servidor de archivos de Vimeo. El clic y la apertura del enlace en otra pestaña produjeron el mismo bloqueo. No se creó un archivo en Descargas durante las pruebas del agente. El usuario indicó que manualmente sí puede descargar; la causa del bloqueo automatizado no está confirmada.
+La prueba del 15 de septiembre de 2026 llegó a **Original (384,27 MB, 853 × 480)** del video 15. Al pulsar el enlace, Chrome mostró **ERR_BLOCKED_BY_CLIENT** en el servidor de archivos de Vimeo. El clic y la apertura del enlace en otra pestaña produjeron el mismo bloqueo. Esos intentos no crearon un archivo. Después, el control de computadora sobre la misma ventana de Chrome permitió abrir el cuadro Guardar y completar la descarga en Descargas. Se verificaron 402.935.696 bytes, video y audio, y una duración de 25:53. La causa exacta de la diferencia entre mecanismos sigue sin confirmarse.
+
+### Alternativa automática: control de computadora
+
+Ante **ERR_BLOCKED_BY_CLIENT** con el control del navegador, prueba una vez el **control de computadora** antes de pedir el clic manual. Este cambio de mecanismo está previsto y autorizado como parte del flujo; continúa en el mismo Google Chrome y con la misma sesión.
+
+1. Busca y lee el skill o plugin de control de computadora disponible. Usa sus herramientas documentadas para controlar la ventana de Chrome. Si no está disponible, pasa a la alternativa manual sin exigir instalarlo.
+2. Selecciona la pestaña del video identificado. Si muestra el error, regresa al video y abre **Acciones de archivo → Descargar**. Comprueba el título y la fila **Original** en el estado actual de la ventana.
+3. Pulsa el icono de descarga junto a **Original** mediante el control de computadora. Usa el elemento accesible observado o las coordenadas de una captura reciente. No reutilices coordenadas o identificadores de otra ejecución. No confundas este mecanismo con el clic por coordenadas del plugin del navegador: ese también produjo el bloqueo en las pruebas.
+4. Inspecciona la ventana después del clic. Si aparece el cuadro nativo **Guardar**, elige **Descargas**, conserva la extensión del archivo y confirma **Guardar**. Verifica el destino mostrado: puede recordar otra carpeta. En macOS, si la selección de la barra lateral no funciona, usa **Cmd+Mayús+G**, introduce la ruta de Descargas resuelta para ese usuario y confirma; no copies la ruta personal de esta máquina. Evita sobrescribir un archivo existente.
+5. Espera a que Chrome indique que terminó y verifica el archivo según el apartado siguiente. Si la descarga ya está en marcha o finalizada, no inicies otra.
+6. Si este intento falla, no hay control de computadora disponible o requiere intervención del usuario, deja preparado el diálogo para descarga manual. No cambies extensiones, permisos, privacidad ni protecciones para completar este paso.
+
+Prueba verificada el 15 de septiembre de 2026: el clic con control de computadora abrió **Guardar**, permitió seleccionar **Descargas** y Chrome mostró la descarga como completada. El archivo local contiene video y audio y dura 25:53. Esto valida esta alternativa en el equipo probado, sin garantizar que funcione en todos los equipos.
 
 ### Alternativa manual: dejar el diálogo listo
 
