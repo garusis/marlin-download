@@ -49,17 +49,43 @@ No vuelvas a pedir estas URL. Conserva los parámetros necesarios de los videos 
 
 Solo una vez confirmado el acceso a Marlin Internacional, abre **https://vimeo.com/es** en otra pestaña de Chrome y sigue el enlace de inicio de sesión observado allí. Guía al usuario para iniciar sesión en Vimeo y verifica el acceso antes de continuar; si ya tiene sesión, reutilízala. No abras aún Vimeo mientras el acceso a Marlin esté pendiente.
 
-La exploración de esta versión llegó al formulario de Marlin; todavía no se ha probado el inicio de sesión, la navegación autenticada ni el acceso de Vimeo.
+Se verificaron el formulario de Marlin, la sesión autenticada, la navegación al módulo de La ley del Éxito y el acceso autenticado al video 15 en Vimeo. Reutiliza las sesiones ya abiertas.
 
 No pidas contraseñas ni códigos de autenticación en el chat. No extraigas cookies, perfiles o almacenes de sesión. Ante un captcha o segundo factor, deja que el usuario lo complete en Chrome.
 
 ## 4. Elegir curso, módulo y video
 
-Después de los dos accesos, solicita **curso, módulo y video**, salvo que ya estén indicados. Navega desde Marlin Internacional hasta la selección. Si hay varias coincidencias, presenta los títulos observados para que el usuario elija. Confirma que el reproductor de Vimeo corresponde al video solicitado usando la página, el título y el contexto del módulo; no adivines identificadores ni descargues el curso completo.
+Reutiliza el curso y video indicados por el usuario; pregunta solo los datos necesarios que falten.
+
+1. Busca el curso por su **nombre visible** en Cursos y verifica su título al abrirlo. Si hay coincidencias ambiguas, pide elegir entre los títulos encontrados. Si el acceso lleva a la administración de WordPress, usa **«Ver»** del curso identificado para abrir su página; no edites el curso.
+2. Revisa **Contenido del Curso** y cuenta los módulos reales. Si hay **uno solo**, entra directamente sin preguntar. Si hay **varios** y el usuario no ha elegido uno, muestra sus nombres y pregunta cuál. No deduzcas el número de módulos a partir de los números de sus URL.
+3. Dentro del módulo, revisa los videos, que pueden estar incrustados en la misma página en lugar de aparecer como enlaces a lecciones. Identifica el número o título solicitado. El orden de los reproductores sirve para localizar un candidato, pero verifica su título antes de descargar.
+4. Obtén el enlace de Vimeo del reproductor correspondiente con las herramientas documentadas de Chrome: puedes leer los atributos del iframe y los enlaces de su título. Sigue el enlace observado a Vimeo en otra pestaña y conserva los parámetros necesarios. No adivines identificadores ni extraigas cookies.
+5. En Vimeo, comprueba el título del video y su relación con el curso. Reutiliza la sesión abierta; si pide autenticación, deja que el usuario la complete en Chrome. No descargues otros videos ni marques el módulo como completado.
+
+### Recorrido verificado: La ley del Éxito
+
+- Curso: https://marlininternacional.com/cursos/la-ley-del-exito/
+- **Contenido del Curso** tiene un único enlace **«Modulo»**, que lleva a https://marlininternacional.com/modulos/modulo-16/. El sufijo `16` no significa que existan 16 módulos.
+- El módulo contiene 26 reproductores de Vimeo incrustados. Para la solicitud del video 15, se encontró el candidato en el decimoquinto reproductor y se confirmó en Vimeo el título **«Video 15-Curso la Ley del Éxito»** antes de intentar descargar.
+- El enlace de administración se obtuvo del enlace del título dentro del reproductor. Descubre el enlace correspondiente en cada ejecución; esta prueba no fija el video 15 como destino para otras solicitudes.
 
 ## 5. Descubrir y realizar la descarga
 
-La navegación de cursos y el método de descarga todavía no se han probado. Descubre las opciones reales de la página con las capacidades documentadas de Chrome.
+### Descarga desde la administración de Vimeo
+
+Recorrido verificado con la sesión del propietario:
+
+1. En el video identificado, abre el botón de tres puntos **«Acciones de archivo»** (nombre accesible observado: `file-actions`).
+2. Elige **«Descargar …»** en el menú.
+3. En el cuadro **«Descargar»**, revisa las filas de calidad, resolución y tamaño. Prefiere **Original**, si está disponible, salvo preferencia del usuario. Si no, usa la mejor calidad disponible. Asocia el enlace «Descargar» a la fila correcta, no a un índice fijo.
+4. Si aparecen avisos informativos de novedades, ciérralos con su botón visible y vuelve a revisar los controles antes de continuar.
+5. No actives el permiso **«Descargas»** de **Compartir → Permisos de los espectadores**: ese ajuste cambia lo que pueden hacer otros usuarios y no es necesario para descargar desde las acciones del propietario. Conserva la privacidad del video.
+6. Si Chrome bloquea la navegación o descarga, informa del mensaje y pide al usuario revisar el bloqueo en Chrome. No desactives protecciones ni uses otro cliente para eludirlo. No repitas la descarga sin un cambio que permita avanzar.
+
+La prueba del 15 de septiembre de 2026 llegó a **Original (384,27 MB, 853 × 480)** del video 15. Al pulsar el enlace, Chrome mostró **ERR_BLOCKED_BY_CLIENT** en el servidor de archivos de Vimeo. No se creó un archivo en Descargas; la descarga completa sigue pendiente de verificar.
+
+### Guardar y verificar Descubre las opciones reales de la página con las capacidades documentadas de Chrome.
 
 - Prioriza el botón o enlace de descarga ofrecido por la página o por Vimeo para el video elegido. Si es necesario, sigue el enlace observado al video de Vimeo y revisa las opciones de administración o descarga que permita la cuenta.
 - Si no aparece una descarga directa, investiga las opciones autorizadas disponibles para el propietario con las herramientas existentes. No confundas el permiso para reproducir con un enlace de descarga disponible. No eludas DRM ni controles de acceso; si no encuentras un método permitido, explica el impedimento concreto y el siguiente paso que puede realizar el propietario.

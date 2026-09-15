@@ -19,7 +19,9 @@ Repositorio: https://github.com/garusis/marlin-download
 - [Inicio de sesión de Marlin](https://marlininternacional.com/login/): el enlace **«iniciar sesión»** del menú superior abre esta página en la misma pestaña. El agente puede abrirla directamente en Chrome y dejar el formulario listo.
 - [Vimeo en español](https://vimeo.com/es): se abrirá después de iniciar sesión en Marlin.
 
-El 15 de septiembre de 2026 se verificó en Chrome la navegación desde la portada al formulario con **«Nombre de usuario o correo electrónico»**, **«Contraseña»** y **«Acceder»**. No se han probado aún el inicio de sesión, el acceso de Vimeo ni la descarga de videos.
+El 15 de septiembre de 2026 se verificó en Chrome la navegación desde la portada al formulario con **«Nombre de usuario o correo electrónico»**, **«Contraseña»** y **«Acceder»**. También se verificó la navegación autenticada: **La ley del Éxito → Modulo → Video 15-Curso la Ley del Éxito** en Vimeo. El curso tiene un solo módulo, así que el skill entra directamente; cuando haya varios, preguntará cuál si no se indicó.
+
+La descarga del video se encuentra en **Acciones de archivo → Descargar → Original**. La prueba llegó al archivo original de 384,27 MB, pero Chrome bloqueó el servidor de archivos con **ERR_BLOCKED_BY_CLIENT**. No se guardó un archivo; falta verificar la descarga completa después de resolver ese bloqueo en Chrome.
 
 ## Requisitos
 

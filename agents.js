@@ -28,7 +28,7 @@ const manifest = {
     marlinLogin: 'https://marlininternacional.com/login/',
     vimeo: 'https://vimeo.com/es',
   },
-  pendingInputs: ['Curso', 'Módulo', 'Video'],
+  pendingInputs: ['Curso si no se indicó', 'Módulo solo si hay varios y no se indicó', 'Video si no se indicó'],
 };
 
 module.exports = manifest;
