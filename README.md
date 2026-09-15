@@ -1,6 +1,6 @@
 # marlin-download
 
-Skill para ayudar a **Marco Lino Álvarez** a descargar videos de su página personal **Marcolino Internacional**, alojados en **Vimeo**, y guardarlos en su carpeta **Descargas**.
+Skill para ayudar a **Marco Lino Álvarez** a descargar videos de su página personal **Marlin Internacional**, alojados en **Vimeo**, y guardarlos en su carpeta **Descargas**.
 
 Repositorio: https://github.com/garusis/marlin-download
 
@@ -8,12 +8,18 @@ Repositorio: https://github.com/garusis/marlin-download
 
 1. Pasar de **Chat a Work** automáticamente si es necesario y ChatGPT lo permite; de lo contrario, indicar cómo activarlo.
 2. Conectar **Google Chrome** del usuario.
-3. Abrir Marcolino Internacional y esperar a que el usuario inicie sesión.
+3. Abrir Marlin Internacional y esperar a que el usuario inicie sesión.
 4. Solo después, abrir el acceso de Vimeo y completar la segunda sesión.
 5. Localizar el curso, módulo y video indicado; descubrir la descarga disponible.
 6. Guardar y verificar el archivo en Descargas.
 
-Las URL de ambas páginas están pendientes de recibir. El skill las pide al comenzar. Aún no se ha probado contra el sitio ni se ha descargado un video.
+### Páginas y acceso verificado
+
+- [Marlin Internacional](https://marlininternacional.com/).
+- [Inicio de sesión de Marlin](https://marlininternacional.com/login/): el enlace **«iniciar sesión»** del menú superior abre esta página en la misma pestaña. El agente puede abrirla directamente en Chrome y dejar el formulario listo.
+- [Vimeo en español](https://vimeo.com/es): se abrirá después de iniciar sesión en Marlin.
+
+El 15 de septiembre de 2026 se verificó en Chrome la navegación desde la portada al formulario con **«Nombre de usuario o correo electrónico»**, **«Contraseña»** y **«Acceder»**. No se han probado aún el inicio de sesión, el acceso de Vimeo ni la descarga de videos.
 
 ## Requisitos
 
@@ -54,7 +60,7 @@ Verifica el skill en **Skills** de la aplicación. Si no aparece, reinicia la ap
 
 En ChatGPT selecciona `@marlin-download` desde el selector de skills o pide:
 
-> Usa marlin-download. Mi página es [URL] y Vimeo es [URL]. Quiero descargar el video [video], del módulo [módulo], del curso [curso].
+> Usa marlin-download. Quiero descargar el video [video], del módulo [módulo], del curso [curso].
 
 El usuario completa los inicios de sesión en Chrome. El agente espera a verificar cada acceso antes de continuar.
 

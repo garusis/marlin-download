@@ -23,7 +23,12 @@ const manifest = {
     existingInstallation: 'Inspeccionar antes de instalar; no sobrescribir.',
     verification: 'Comprobar que marlin-download aparece en Skills.',
   },
-  pendingInputs: ['URL de Marcolino Internacional', 'URL de Vimeo'],
+  sites: {
+    marlin: 'https://marlininternacional.com/',
+    marlinLogin: 'https://marlininternacional.com/login/',
+    vimeo: 'https://vimeo.com/es',
+  },
+  pendingInputs: ['Curso', 'Módulo', 'Video'],
 };
 
 module.exports = manifest;

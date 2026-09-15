@@ -1,9 +1,9 @@
 ---
 name: marlin-download
-description: Ayuda a Marco Lino Álvarez a descargar videos de cursos de su página Marcolino Internacional alojados en Vimeo, usando Google Chrome y guardándolos en Descargas. Si la conversación está en Chat, pasa a Work para realizar la descarga.
+description: Ayuda a Marco Lino Álvarez a descargar videos de cursos de su página Marlin Internacional alojados en Vimeo, usando Google Chrome y guardándolos en Descargas. Si la conversación está en Chat, pasa a Work para realizar la descarga.
 ---
 
-# Descargar videos de Marcolino Internacional
+# Descargar videos de Marlin Internacional
 
 Ayuda a Marco Lino Álvarez a localizar y descargar el video que indique de su página personal. Los videos están alojados en Vimeo. Habla en español claro y guía los pasos que requieran intervención del usuario.
 
@@ -29,22 +29,37 @@ Si Chrome no está conectado, guía al usuario a la configuración de uso de com
 
 ## 3. Iniciar sesión en orden
 
-Las URL de Marcolino Internacional y Vimeo aún deben ser proporcionadas por el usuario. Reutiliza las que ya existan en la conversación; solicita únicamente las que falten. No adivines el dominio de Marcolino Internacional. Conserva la ruta y los parámetros necesarios de la URL del video durante la sesión, sin publicarlos.
+### Marlin Internacional: abrir el acceso
 
-1. Abre primero el acceso de **Marcolino Internacional** en Chrome. Si la URL recibida es la portada, encuentra el acceso en la página.
-2. Pide al usuario que inicie sesión directamente en Chrome y avise cuando termine. Si ya está autenticado, verifica el acceso al área de cursos y continúa. No abras aún Vimeo si el acceso a Marcolino Internacional sigue pendiente.
-3. Una vez confirmado ese acceso, abre la página de inicio de sesión de **Vimeo** en otra pestaña de Chrome, usando la URL compartida o el enlace de acceso observado en la página de Vimeo proporcionada.
-4. Guía al usuario para iniciar sesión en Vimeo y verifica que la sesión esté abierta antes de continuar. Si ya lo está, reutilízala.
+URL conocidas, proporcionadas por el usuario:
+
+- Página principal: https://marlininternacional.com/
+- Acceso de Marlin, verificado en Chrome el 15 de septiembre de 2026: https://marlininternacional.com/login/
+- Vimeo en español: https://vimeo.com/es (portada; el acceso de Vimeo se explorará en el siguiente paso).
+
+No vuelvas a pedir estas URL. Conserva los parámetros necesarios de los videos durante la sesión, sin publicarlos.
+
+1. Reutiliza una pestaña de Marlin en Chrome si ya está abierta; de lo contrario, abre una nueva. Para llegar al formulario con menos pasos, navega directamente a **https://marlininternacional.com/login/**. Si ya muestra ese formulario, no recargues.
+2. Ruta alternativa verificada desde la portada: en el menú superior **Navegación del sitio**, pulsa el enlace **«iniciar sesión»**. Abre `/login/` en la misma pestaña; es una página de acceso, no una ventana emergente. Puede haber otra copia del enlace en el menú móvil: selecciona la visible del encabezado, sin depender del orden de los enlaces.
+3. Comprueba que la página muestra **«Acceder»**, el campo **«Nombre de usuario o correo electrónico»**, el campo **«Contraseña»** y el botón **«Acceder»**. No confundas **«¡ INSCRÌBETE YA !»** ni el formulario de información de la portada con el acceso. Si el sitio cambia, vuelve a la portada e identifica el enlace de acceso visible.
+4. Deja abierta la pestaña para que el usuario complete el formulario. Si la herramienta cierra las pestañas al terminar el turno, usa su mecanismo documentado para conservar esta pestaña como entrega pendiente de inicio de sesión.
+5. Indica: **«Marco Lino, ya está abierto el acceso de Marlin Internacional en Google Chrome. Escribe tu usuario o correo y tu contraseña, pulsa “Acceder” y avísame cuando hayas entrado.»** Espera su respuesta y verifica el acceso al área de cursos. Si la sesión ya está abierta y el sitio muestra el área autenticada, reutilízala sin pedir otro inicio de sesión. La mera presencia de cursos públicos no demuestra que haya iniciado sesión.
+
+### Vimeo: después del acceso a Marlin
+
+Solo una vez confirmado el acceso a Marlin Internacional, abre **https://vimeo.com/es** en otra pestaña de Chrome y sigue el enlace de inicio de sesión observado allí. Guía al usuario para iniciar sesión en Vimeo y verifica el acceso antes de continuar; si ya tiene sesión, reutilízala. No abras aún Vimeo mientras el acceso a Marlin esté pendiente.
+
+La exploración de esta versión llegó al formulario de Marlin; todavía no se ha probado el inicio de sesión, la navegación autenticada ni el acceso de Vimeo.
 
 No pidas contraseñas ni códigos de autenticación en el chat. No extraigas cookies, perfiles o almacenes de sesión. Ante un captcha o segundo factor, deja que el usuario lo complete en Chrome.
 
 ## 4. Elegir curso, módulo y video
 
-Después de los dos accesos, solicita **curso, módulo y video**, salvo que ya estén indicados. Navega desde Marcolino Internacional hasta la selección. Si hay varias coincidencias, presenta los títulos observados para que el usuario elija. Confirma que el reproductor de Vimeo corresponde al video solicitado usando la página, el título y el contexto del módulo; no adivines identificadores ni descargues el curso completo.
+Después de los dos accesos, solicita **curso, módulo y video**, salvo que ya estén indicados. Navega desde Marlin Internacional hasta la selección. Si hay varias coincidencias, presenta los títulos observados para que el usuario elija. Confirma que el reproductor de Vimeo corresponde al video solicitado usando la página, el título y el contexto del módulo; no adivines identificadores ni descargues el curso completo.
 
 ## 5. Descubrir y realizar la descarga
 
-Esta primera versión no tiene selectores ni un método de extracción probado. Descubre las opciones reales de la página con las capacidades documentadas de Chrome.
+La navegación de cursos y el método de descarga todavía no se han probado. Descubre las opciones reales de la página con las capacidades documentadas de Chrome.
 
 - Prioriza el botón o enlace de descarga ofrecido por la página o por Vimeo para el video elegido. Si es necesario, sigue el enlace observado al video de Vimeo y revisa las opciones de administración o descarga que permita la cuenta.
 - Si no aparece una descarga directa, investiga las opciones autorizadas disponibles para el propietario con las herramientas existentes. No confundas el permiso para reproducir con un enlace de descarga disponible. No eludas DRM ni controles de acceso; si no encuentras un método permitido, explica el impedimento concreto y el siguiente paso que puede realizar el propietario.
