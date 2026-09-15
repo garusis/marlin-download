@@ -27,6 +27,18 @@ Usa exclusivamente **Google Chrome del usuario**, nunca el navegador integrado d
 
 Si Chrome no está conectado, guía al usuario a la configuración de uso de computadora y a la extensión de Chrome según las instrucciones disponibles. Espera a que conecte Chrome, sin cambiar de navegador.
 
+### Preparar la pantalla para la intervención del usuario
+
+Cada vez que Marco Lino deba iniciar sesión, completar una verificación o descargar manualmente, prepara la pantalla **antes de pedirle que actúe**. Que una pestaña esté abierta no significa que el usuario pueda verla: ChatGPT puede estar tapando Chrome.
+
+- Usa el control de computadora disponible para seleccionar la ventana y pestaña correctas de **Google Chrome** y traerlas al frente. Sigue la documentación del plugin y observa el estado actual de las ventanas.
+- Acomoda **ChatGPT y Chrome lado a lado** en la misma pantalla, si el espacio lo permite: deja las instrucciones de ChatGPT legibles y suficiente espacio en Chrome para ver y utilizar el formulario o diálogo. Usa los controles de ventanas disponibles en Windows; descubre la disposición real sin asumir atajos, coordenadas, resolución ni posiciones de otro equipo.
+- Conserva las pestañas y los datos que el usuario haya escrito. Ajusta únicamente las ventanas necesarias para esta interacción, sin cerrar otras aplicaciones ni cambiar configuraciones permanentes de pantalla.
+- Comprueba visualmente que el formulario o botón objetivo esté visible y no quede detrás de ChatGPT, otro diálogo o un aviso. Si la pantalla no permite una disposición cómoda, prioriza Chrome al frente y proporciona una instrucción breve que pueda recordar, explicando cómo volver a ChatGPT al terminar.
+- Una vez preparada la pantalla, describe el control por su etiqueta visible: por ejemplo, «En Chrome, escribe tu usuario y contraseña y pulsa Acceder». Evita instrucciones como «a la derecha» si no has verificado esa disposición.
+- Si el control de computadora no está disponible o no permite acomodar las ventanas, indica el paso mínimo: «Marco Lino, trae Google Chrome al frente y selecciona la pestaña de Vimeo. Si puedes, coloca Chrome junto a ChatGPT para ver ambos». No afirmes haber acomodado la pantalla sin comprobarlo.
+- Mientras el usuario escribe credenciales, deja que complete el formulario sin seguir capturando la pantalla. Retoma la comprobación de la sesión cuando avise que terminó. Mantén la disposición útil para que pueda seguir los próximos pasos.
+
 ## 3. Iniciar sesión en orden
 
 ### Marlin Internacional: abrir el acceso
@@ -42,12 +54,12 @@ No vuelvas a pedir estas URL. Conserva los parámetros necesarios de los videos 
 1. Reutiliza una pestaña de Marlin en Chrome si ya está abierta; de lo contrario, abre una nueva. Para llegar al formulario con menos pasos, navega directamente a **https://marlininternacional.com/login/**. Si ya muestra ese formulario, no recargues.
 2. Ruta alternativa verificada desde la portada: en el menú superior **Navegación del sitio**, pulsa el enlace **«iniciar sesión»**. Abre `/login/` en la misma pestaña; es una página de acceso, no una ventana emergente. Puede haber otra copia del enlace en el menú móvil: selecciona la visible del encabezado, sin depender del orden de los enlaces.
 3. Comprueba que la página muestra **«Acceder»**, el campo **«Nombre de usuario o correo electrónico»**, el campo **«Contraseña»** y el botón **«Acceder»**. No confundas **«¡ INSCRÌBETE YA !»** ni el formulario de información de la portada con el acceso. Si el sitio cambia, vuelve a la portada e identifica el enlace de acceso visible.
-4. Deja abierta la pestaña para que el usuario complete el formulario. Si la herramienta cierra las pestañas al terminar el turno, usa su mecanismo documentado para conservar esta pestaña como entrega pendiente de inicio de sesión.
+4. Prepara la pantalla siguiendo **Preparar la pantalla para la intervención del usuario** y deja abierta y visible la pestaña para que complete el formulario. Si la herramienta cierra las pestañas al terminar el turno, usa su mecanismo documentado para conservar esta pestaña como entrega pendiente de inicio de sesión.
 5. Indica: **«Marco Lino, ya está abierto el acceso de Marlin Internacional en Google Chrome. Escribe tu usuario o correo y tu contraseña, pulsa “Acceder” y avísame cuando hayas entrado.»** Espera su respuesta y verifica el acceso al área de cursos. Si la sesión ya está abierta y el sitio muestra el área autenticada, reutilízala sin pedir otro inicio de sesión. La mera presencia de cursos públicos no demuestra que haya iniciado sesión.
 
 ### Vimeo: después del acceso a Marlin
 
-Solo una vez confirmado el acceso a Marlin Internacional, abre **https://vimeo.com/es** en otra pestaña de Chrome y sigue el enlace de inicio de sesión observado allí. Guía al usuario para iniciar sesión en Vimeo y verifica el acceso antes de continuar; si ya tiene sesión, reutilízala. No abras aún Vimeo mientras el acceso a Marlin esté pendiente.
+Solo una vez confirmado el acceso a Marlin Internacional, abre **https://vimeo.com/es** en otra pestaña de Chrome y sigue el enlace de inicio de sesión observado allí. Antes de pedir que inicie sesión en Vimeo, prepara la pantalla para que vea Chrome y las instrucciones de ChatGPT. Guía al usuario y verifica el acceso antes de continuar; si ya tiene sesión, reutilízala. No abras aún Vimeo mientras el acceso a Marlin esté pendiente.
 
 Se verificaron el formulario de Marlin, la sesión autenticada, la navegación al módulo de La ley del Éxito y el acceso autenticado al video 15 en Vimeo. Reutiliza las sesiones ya abiertas.
 
@@ -102,7 +114,7 @@ Prueba verificada el 15 de septiembre de 2026: el clic con control de computador
 
 1. Si el intento automático llevó a una página de error, vuelve a la página del video previamente identificada en Vimeo. Reutiliza su pestaña si sigue abierta; no dejes al usuario en el error ni le entregues una URL temporal de descarga.
 2. Abre **Acciones de archivo → Descargar** y comprueba que el cuadro con las calidades está visible y contiene la fila **Original**. Si ya está abierto, consérvalo sin recargar. No vuelvas a pulsar el enlace de descarga automáticamente durante esta entrega.
-3. Mantén esa pestaña abierta al terminar el turno mediante el mecanismo documentado de conservación para intervención del usuario. No cambies permisos, extensiones ni protecciones del navegador.
+3. Prepara la pantalla con Chrome y ChatGPT visibles según **Preparar la pantalla para la intervención del usuario**. Mantén esa pestaña abierta al terminar el turno mediante el mecanismo documentado de conservación para intervención del usuario. No cambies permisos, extensiones ni protecciones del navegador.
 4. Indica el título del video y da una instrucción breve, adaptada a lo observado:
 
 > Marco Lino, dejé abierto en Google Chrome el cuadro de descarga de «[título del video]». No pude completar la descarga automática. Haz clic en el icono de descarga a la derecha de **Original**. Si Chrome te pregunta dónde guardarlo, elige **Descargas**. Espera a que termine y avísame para comprobar el archivo.

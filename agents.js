@@ -16,6 +16,7 @@ const manifest = {
   requiredMode: 'ChatGPT Work',
   modeTransition: 'Asumir ChatGPT. Pasar de Chat a Work automáticamente si está disponible; pedir el cambio solo cuando sea necesario y no se pueda realizar por el usuario.',
   requiredBrowser: 'Google Chrome',
+  userHandoff: 'Antes de solicitar login u otra acción manual, usar control de computadora para mostrar Chrome y ChatGPT juntos con el formulario visible. Si no es posible, priorizar Chrome al frente o guiar al usuario brevemente.',
   destination: 'Carpeta Descargas del usuario en su computadora',
   downloadFallback: 'Si el control del navegador falla con ERR_BLOCKED_BY_CLIENT, probar el control de computadora sobre Chrome y guardar Original en Descargas. Si tampoco funciona o no está disponible, dejar el diálogo listo para el clic manual. Verificar el archivo antes de afirmar que terminó.',
   installation: {
