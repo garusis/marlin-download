@@ -1,0 +1,33 @@
+#!/usr/bin/env node
+'use strict';
+
+// Manifiesto informativo; no instala, navega ni modifica archivos.
+const { readFileSync } = require('node:fs');
+const { join } = require('node:path');
+
+const manifest = {
+  name: 'marlin-download',
+  repositoryUrl: 'https://github.com/garusis/marlin-download',
+  visibility: 'private',
+  skillDirectory: '.',
+  entrypoint: 'SKILL.md',
+  readme: 'README.md',
+  agentInstructions: 'AGENTS.md',
+  requiredMode: 'ChatGPT Work local',
+  requiredBrowser: 'Google Chrome',
+  destination: 'Carpeta Descargas del usuario en su computadora',
+  installation: {
+    instructions: 'README.md#instalación-local',
+    method: 'Clonar en una carpeta persistente y enlazarla en ~/.agents/skills/marlin-download, o usar el skill-installer disponible con la raíz del repositorio.',
+    existingInstallation: 'Inspeccionar antes de instalar; no sobrescribir.',
+    verification: 'Comprobar que marlin-download aparece en Skills.',
+  },
+  pendingInputs: ['URL de Marcolino Internacional', 'URL de Vimeo'],
+};
+
+module.exports = manifest;
+
+if (require.main === module) {
+  const skillContent = readFileSync(join(__dirname, manifest.entrypoint), 'utf8');
+  process.stdout.write(JSON.stringify({ ...manifest, skillContent }, null, 2) + '\n');
+}
