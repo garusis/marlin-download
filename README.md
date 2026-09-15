@@ -23,13 +23,13 @@ El 15 de septiembre de 2026 se verificó en Chrome la navegación desde la porta
 
 La descarga se encuentra en **Acciones de archivo → Descargar → Original**. En las pruebas, el control del navegador mostró **ERR_BLOCKED_BY_CLIENT**, tanto al pulsar el enlace como al abrirlo en otra pestaña.
 
-**El control de computadora sí funcionó:** pulsó Original en Chrome, abrió el cuadro Guardar y permitió guardar en Descargas. Se verificó el archivo completo de 402.935.696 bytes (384,27 MiB), con video, audio y duración de 25:53.
+**El control de computadora sí funcionó:** pulsó Original en Chrome, abrió el cuadro Guardar y permitió guardar en Descargas. Se verificó el archivo completo de 402.935.696 bytes (384,27 MiB), con video, audio y duración de 25:53. Esta prueba se realizó en macOS; falta probar la alternativa en Windows. Las instrucciones de descarga son independientes de atajos o rutas del sistema y el agente debe adaptarlas a los controles disponibles.
 
 El skill usa este orden: **control del navegador → control de computadora → descarga manual**. Si ambos métodos automáticos fallan, deja el cuadro de descarga abierto e indica a Marco Lino que pulse **Original** y guarde en **Descargas**, sin exigir que diagnostique el bloqueo. Distingue entre «listo para descarga manual» y «archivo descargado y verificado».
 
 ## Requisitos
 
-- ChatGPT en modo **Work**, con acceso al Chrome y a Descargas del usuario.
+- ChatGPT en modo **Work** en el equipo Windows de Marco Lino, con acceso a Chrome y a Descargas.
 - Google Chrome conectado mediante la extensión y las herramientas disponibles en la aplicación.
 - Acceso a las dos cuentas y a la carpeta Descargas del equipo.
 

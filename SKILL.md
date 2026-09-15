@@ -9,7 +9,7 @@ Ayuda a Marco Lino Álvarez a localizar y descargar el video que indique de su p
 
 ## 1. Pasar de Chat a Work cuando haga falta
 
-Marco Lino siempre utiliza ChatGPT. Da ese contexto por hecho y evita preguntas sobre la aplicación, el entorno o conocimientos técnicos.
+Marco Lino utiliza ChatGPT en Windows. Da ese contexto por hecho y evita preguntas sobre la aplicación, el entorno o conocimientos técnicos.
 
 Si la conversación ya está en **Work**, continúa directamente. Si está en **Chat**, usa el mecanismo de ChatGPT para pasar a **Work** automáticamente cuando esté disponible, conservando la conversación y los datos proporcionados. La solicitud de usar este skill autoriza ese cambio; no pidas una confirmación adicional.
 
@@ -92,11 +92,11 @@ Ante **ERR_BLOCKED_BY_CLIENT** con el control del navegador, prueba una vez el *
 1. Busca y lee el skill o plugin de control de computadora disponible. Usa sus herramientas documentadas para controlar la ventana de Chrome. Si no está disponible, pasa a la alternativa manual sin exigir instalarlo.
 2. Selecciona la pestaña del video identificado. Si muestra el error, regresa al video y abre **Acciones de archivo → Descargar**. Comprueba el título y la fila **Original** en el estado actual de la ventana.
 3. Pulsa el icono de descarga junto a **Original** mediante el control de computadora. Usa el elemento accesible observado o las coordenadas de una captura reciente. No reutilices coordenadas o identificadores de otra ejecución. No confundas este mecanismo con el clic por coordenadas del plugin del navegador: ese también produjo el bloqueo en las pruebas.
-4. Inspecciona la ventana después del clic. Si aparece el cuadro nativo **Guardar**, elige **Descargas**, conserva la extensión del archivo y confirma **Guardar**. Verifica el destino mostrado: puede recordar otra carpeta. En macOS, si la selección de la barra lateral no funciona, usa **Cmd+Mayús+G**, introduce la ruta de Descargas resuelta para ese usuario y confirma; no copies la ruta personal de esta máquina. Evita sobrescribir un archivo existente.
+4. Inspecciona la ventana después del clic. Si aparece el cuadro nativo **Guardar**, elige **Descargas**, conserva la extensión del archivo y confirma **Guardar**. Verifica el destino mostrado: puede recordar otra carpeta. Resuelve la selección de carpeta con los controles visibles y las herramientas disponibles en el equipo del usuario; no supongas atajos, rutas ni nombres de usuario de otra máquina. Evita sobrescribir un archivo existente.
 5. Espera a que Chrome indique que terminó y verifica el archivo según el apartado siguiente. Si la descarga ya está en marcha o finalizada, no inicies otra.
 6. Si este intento falla, no hay control de computadora disponible o requiere intervención del usuario, deja preparado el diálogo para descarga manual. No cambies extensiones, permisos, privacidad ni protecciones para completar este paso.
 
-Prueba verificada el 15 de septiembre de 2026: el clic con control de computadora abrió **Guardar**, permitió seleccionar **Descargas** y Chrome mostró la descarga como completada. El archivo local contiene video y audio y dura 25:53. Esto valida esta alternativa en el equipo probado, sin garantizar que funcione en todos los equipos.
+Prueba verificada el 15 de septiembre de 2026: el clic con control de computadora abrió **Guardar**, permitió seleccionar **Descargas** y Chrome mostró la descarga como completada. El archivo local contiene video y audio y dura 25:53. La prueba se realizó en macOS; la alternativa todavía no se ha probado en el equipo Windows de Marco Lino. Adapta la interacción al sistema del usuario y a las capacidades disponibles.
 
 ### Alternativa manual: dejar el diálogo listo
 
